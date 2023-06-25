@@ -1,24 +1,16 @@
-# README
+# Tutorial de Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para empezar a utilizar la aplicación, clona el repositorio ejecutando el comando:
 
-Things you may want to cover:
+`git clone https://github.com/Alexandergape/RoR-Articles_Project.git`
 
-* Ruby version
+Ubicado en la raiz del proyecto, ejecuta el comando:
 
-* System dependencies
 
-* Configuration
+`foreman start -f Procfile.dev`
 
-* Database creation
+Para ejecutar la aplicación en el navegador, ingresa a la siguiente dirección:
 
-* Database initialization
+[http://localhost:3000/](`http://localhost:3000/`)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Para más información, visita la [documentación oficial de Ruby on Rails](https://guides.rubyonrails.org/).
