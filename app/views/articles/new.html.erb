@@ -1,0 +1,42 @@
+<%# <div>
+  <h1 class="font-bold text-4xl">Articles#new</h1>
+  <p>Find me in app/views/articles/new.html.erb</p>
+</div> %>
+
+
+<div class="prose">
+  <h1>New Article</h1>
+
+  <%#= form_with model: @article do |form| %>
+<!--    <div>-->
+      <%#= form.label :"Title of the article" %>
+<!--      <br>-->
+      <%#= form.text_field :title, placeholder: "Insert the title"  %>
+<!--      -->
+      <%# @article.errors.full_messages_for(:title).each do |msg| %>
+<!--        <div class="text-red-500 text-sm">-->
+          <%#= msg %>
+<!--        </div>      -->
+      <%# end %>
+<!--    </div>
+    <br>
+
+    <div>
+      <%#= form.label :body %>-->
+<!--      <br>-->
+      <%#= form.text_area :body, class: "w-full"%>
+<!--      -->
+      <%# @article.errors.full_messages_for(:body).each do |msg| %>
+<!--        <div class="text-red-500 text-sm">-->
+          <%#= msg %>
+<!--        </div>      -->
+      <%# end %>
+<!--    </div>
+
+    <%#= form.submit "Submit", class: "flex items-center justify-center align-middle bg-blue-500 text-white hover:bg-blue-600 rounded py-2 px-4", -->
+<!--        disable_with: 'Submiting...'%>
+
+  <%# end %>-->
+
+  <%= render 'form', article: @article %>
+</div>

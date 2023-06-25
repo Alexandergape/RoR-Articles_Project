@@ -1,0 +1,39 @@
+<%# article wihout @, because it will be rendered on another view %>
+<%= form_with model: article do |form| %>
+  <div>
+    <%= form.label :"Title of the article" %>
+    <br>
+    <%= form.text_field :title, placeholder: "Insert the title" %>
+
+    <% article.errors.full_messages_for(:title).each do |msg| %>
+      <div class="text-red-500 text-sm">
+        <%= msg %>
+      </div>
+    <% end %>
+  </div>
+  <br>
+
+  <div class="mb-5">
+    <%= form.label :body %>
+    <br>
+    <%= form.text_area :body, class: "w-full" %>
+
+    <% article.errors.full_messages_for(:body).each do |msg| %>
+      <div class="text-red-500 text-sm">
+        <%= msg %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="flex justify-center gap-1">
+    <%= link_to "Back",
+    articles_path,
+    class:
+      "flex items-center justify-center align-middle bg-blue-500 text-white hover:bg-blue-600 rounded py-2 px-4" %>
+
+    <%= form.submit "Save",
+                class:
+                  "flex items-center justify-center align-middle bg-green-500 text-white hover:bg-green-600 rounded py-2 px-4",
+                disable_with: "Submiting..." %>
+  </div>
+<% end %>
