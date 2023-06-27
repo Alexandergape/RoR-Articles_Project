@@ -4,12 +4,19 @@ Para empezar a utilizar la aplicación, clona el repositorio ejecutando el coman
 
 `git clone https://github.com/Alexandergape/RoR-Articles_Project.git`
 
-Ubicado en la raiz del proyecto, ejecuta el comando:
+Con ruby instalado, instala rails con el comando:
 
+`gem install rails`
+
+Ubicado en la raíz del proyecto, instala todas las dependencias con el comando:
+
+`bundle install`
+
+Luego, ejecuta el siguiente comando para ejecutar la aplicación:
 
 `foreman start -f Procfile.dev`
 
-Para ejecutar la aplicación en el navegador, ingresa a la siguiente dirección:
+Revisa en el navegador ingresando a la siguiente dirección:
 
 [http://localhost:3000/](`http://localhost:3000/`)
 
