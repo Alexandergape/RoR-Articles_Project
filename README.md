@@ -1,24 +1,23 @@
-# README
+# Ruby on Rails Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run this project, first clone it with the following command:
 
-Things you may want to cover:
+`git clone https://github.com/Alexandergape/RoR-Articles_Project.git`
 
-* Ruby version
+With Ruby installed, install Rails with the following command:
 
-* System dependencies
+`gem install rails`
 
-* Configuration
+Then, install the dependencies with the following command:
 
-* Database creation
+`bundle install`
 
-* Database initialization
+Run the project with the following command:
 
-* How to run the test suite
+`foreman start -f Procfile.dev`
 
-* Services (job queues, cache servers, search engines, etc.)
+Finally, open the following URL in your browser:
 
-* Deployment instructions
+[http://localhost:3000/](`http://localhost:3000/`)
 
-* ...
+For more information, visit the [official Ruby on Rails documentation](https://guides.rubyonrails.org/).
