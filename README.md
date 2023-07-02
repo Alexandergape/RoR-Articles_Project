@@ -1,23 +1,23 @@
-# Tutorial de Ruby on Rails
+# Ruby on Rails Tutorial
 
-Para empezar a utilizar la aplicación, clona el repositorio ejecutando el comando:
+To run this project, first clone it with the following command:
 
 `git clone https://github.com/Alexandergape/RoR-Articles_Project.git`
 
-Con ruby instalado, instala rails con el comando:
+With Ruby installed, install Rails with the following command:
 
 `gem install rails`
 
-Ubicado en la raíz del proyecto, instala todas las dependencias con el comando:
+Then, install the dependencies with the following command:
 
 `bundle install`
 
-Luego, ejecuta el siguiente comando para ejecutar la aplicación:
+Run the project with the following command:
 
 `foreman start -f Procfile.dev`
 
-Revisa en el navegador ingresando a la siguiente dirección:
+Finally, open the following URL in your browser:
 
 [http://localhost:3000/](`http://localhost:3000/`)
 
-Para más información, visita la [documentación oficial de Ruby on Rails](https://guides.rubyonrails.org/).
+For more information, visit the [official Ruby on Rails documentation](https://guides.rubyonrails.org/).
